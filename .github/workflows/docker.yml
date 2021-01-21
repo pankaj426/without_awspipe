@@ -43,7 +43,7 @@ jobs:
       id: task-def
       uses: aws-actions/amazon-ecs-render-task-definition@v1
       with:
-        task-definition: taskdef.json
+        task-definition: task-definition.json
         container-name: flask
         image: ${{ steps.build-image.outputs.image }}
 
