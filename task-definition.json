@@ -55,7 +55,7 @@
   "compatibilities": [
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:721791351551:task-definition/pk1:3",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:721791351551:task-definition/pk1:5",
   "family": "pk1",
   "requiresAttributes": [
     {
@@ -71,7 +71,7 @@
   ],
   "networkMode": null,
   "cpu": "200",
-  "revision": 3,
+  "revision": 5,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
