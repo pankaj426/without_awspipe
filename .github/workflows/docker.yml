@@ -51,6 +51,6 @@ jobs:
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
-        service: pk02
-        cluster: green
+        service: blue-green
+        cluster: pkcl1
         wait-for-service-stability: true
